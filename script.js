@@ -1,6 +1,6 @@
 // ------------------- API CONFIGURATION ------------------
 const API_URL = "https://api.langbly.com/language/translate/v2";
-  const API_KEY = "GEBUU31BRRDtaitcvm6DVw";  // 
+  const API_KEY = "MgT3k2kAtML5gj3KUAYhAP";  // 
   
   // ---------- Full language list with Urdu and more ----------
   const languages = [
@@ -93,9 +93,9 @@ const API_URL = "https://api.langbly.com/language/translate/v2";
       updateStarButton();
     } catch (err) {
       console.warn(err);
-      let mock = `[Demo] ${text}`;
+      let mock = `[Please Try Again] ${text}`;
       translatedOutputDiv.innerHTML = mock;
-      showToast("API Error - Using demo mode", 2000);
+      showToast("Translation failed. Please try again.", 2000);
       updateStarButton();
     }
     isTranslating = false;
