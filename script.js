@@ -1,8 +1,7 @@
 
-  // ==================== LANGBLY API CONFIGURATION ====================
-  // 🔑 GET YOUR FREE API KEY: https://langbly.com/dashboard
-  // Sign up, verify email, and copy your API key
-  const LANGBLY_API_KEY = "YOUR_LANGBLY_API_KEY_HERE"; // ← REPLACE THIS!
+
+ 
+  const LANGBLY_API_KEY = "MgT3k2kAtML5gj3KUAYhAP"; 
   const LANGBLY_API_URL = "https://api.langbly.com/language/translate/v2";
 
   // ==================== LANGUAGES (100+ supported) ====================
