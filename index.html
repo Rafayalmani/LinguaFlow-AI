@@ -2,91 +2,140 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
-  <title>LinguaFlow AI | Intelligent Translator</title>
-<!-- ✅ Basic Meta -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- ✅ App Title -->
-<title>LinguaFlow AI - Smart Translator</title>
-
-<!-- ✅ Description (IMPORTANT for SEO & preview) -->
-<meta name="description" content="LinguaFlow AI is a fast and smart language translator supporting 100+ languages. Translate instantly with AI-powered accuracy.">
-
-<!-- ✅ Keywords -->
-<meta name="keywords" content="translator, language translator, AI translator, English to Urdu, translate app">
-
-<!-- ✅ Author -->
-<meta name="author" content="Rafay Almani">
-
-<!-- ✅ Favicon -->
-<link rel="icon" type="image/png" href="favicon.png">
-
-<!-- ✅ Mobile App Feel -->
-<meta name="theme-color" content="#f5d76e">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-  <!-- Google Fonts & simple icons (Font Awesome) -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#f5d76e">
+  <meta name="description" content="LinguaFlow Pro - Professional AI-Powered Language Translator with 100+ languages, voice input, text-to-speech, and real-time translation">
+  <meta name="keywords" content="translator, language translator, AI translator, voice translator, professional translator">
+  <meta name="author" content="Rafay Almani | Founder & Creator">
+  <title>LinguaFlow </title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="app-container" id="app">
-  <!-- MAIN TRANSLATOR SCREEN - Now shown by default -->
-  <div id="translatorScreen" class="screen">
-    <div class="translator-header">
-      <h1>Translator</h1>
-      <div class="action-icons">
-        <i class="far fa-star" id="favStarBtn"></i>
-        <i class="far fa-question-circle" id="infoBtn"></i>
-      </div>
-    </div>
-
-    <!-- Source Card -->
-    <div class="trans-card">
-      <div class="lang-bar">
-        <div class="lang-pill" id="sourceLangBtn"><span id="sourceLangLabel">Auto-detect</span> <i class="fas fa-chevron-down"></i></div>
-        <div class="swap-btn" id="swapLangBtn"><i class="fas fa-arrows-alt-h"></i></div>
-      </div>
-      <textarea id="sourceText" rows="3" placeholder="Type text to translate..."></textarea>
-      <div class="card-footer">
-        <i class="far fa-copy" id="copySourceBtn"></i>
-        <i class="fas fa-times-circle" id="clearInputBtn"></i>
-      </div>
-    </div>
-
-    <!-- Target Card -->
-    <div class="trans-card">
-      <div class="lang-bar">
-        <div class="lang-pill" id="targetLangBtn"><span id="targetLangLabel">English</span> <i class="fas fa-chevron-down"></i></div>
-        <div><i class="fas fa-volume-up" id="speakOutputBtn" style="cursor:pointer; color:#6b6f8c;"></i></div>
-      </div>
-      <div class="output-text" id="translatedOutput">Translation will appear here</div>
-      <div class="card-footer">
-        <i class="far fa-copy" id="copyOutputBtn"></i>
-        <i class="fas fa-undo-alt" id="clearOutputBtn"></i>
-      </div>
-    </div>
-
-    <!-- Action buttons row -->
-    <div class="action-buttons">
-      <div class="action-btn highlight" id="writeBtn"><i class="fas fa-keyboard"></i><span>Write</span></div>
-      <div class="action-btn" id="recordBtn"><i class="fas fa-microphone"></i><span>Record</span></div>
-      <div class="action-btn" id="scanBtn"><i class="fas fa-camera"></i><span>Scan</span></div>
-    </div>
-
-    <!-- Bottom Navigation -->
-    <div class="bottom-nav">
-      <div class="nav-item" data-nav="home"><i class="fas fa-home"></i><span>Home</span></div>
-      <div class="nav-item" data-nav="search"><i class="fas fa-search"></i><span>Search</span></div>
-      <div class="nav-item" data-nav="favorites"><i class="fas fa-heart"></i><span>Favorites</span></div>
-    </div>
+  <div class="animated-bg">
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+    <div class="gradient-orb orb-3"></div>
   </div>
-</div>
-<div id="toastMsg" class="toast-msg"></div>
 
-<script src="script.js"></script>
+  <div class="app-wrapper">
+    <header class="main-header">
+      <div class="header-container">
+        <div class="logo-area">
+          <div class="logo-icon"><i class="fas fa-language"></i></div>
+          <div class="logo-text">
+            <h1>LinguaFlow <span class="highlight">Pro</span></h1>
+            <p>AI-Powered Professional Translator</p>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="stats-grid">
+            <div class="stat-card"><i class="fas fa-globe"></i><div><strong>100+ Languages</strong></div></div>
+            <div class="stat-card"><i class="fas fa-microphone-alt"></i><div><strong>Voice AI Input</strong></div></div>
+            <div class="stat-card"><i class="fas fa-headphones"></i><div><strong>Text-to Speech</strong></div></div>
+          </div>
+          <!-- DIRECT APK DOWNLOAD LINK - REPLACE THE HREF WITH YOUR APK URL -->
+          <a href="https://github.com/Rafayalmani/LinguaFlow-AI/raw/refs/heads/main/Lingua%20Ai.apk" id="downloadApkBtn" class="download-apk-btn" download>
+            <i class="fab fa-android"></i>
+            <span>Download APK</span>
+            <i class="fas fa-download"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="translator-main">
+      <div class="translator-grid">
+        <div class="translation-card">
+          <div class="card-header">
+            <div class="lang-controls">
+              <button class="lang-selector" id="sourceLangBtn"><span id="sourceLangLabel">Auto-detect</span> <i class="fas fa-chevron-down"></i></button>
+              <button class="swap-btn" id="swapLangBtn"><i class="fas fa-exchange-alt"></i></button>
+            </div>
+            <button class="icon-btn" id="clearInputBtn"><i class="fas fa-trash-alt"></i></button>
+          </div>
+          <div class="card-body">
+            <textarea id="sourceText" rows="6" placeholder="Type or paste text to translate... "></textarea>
+          </div>
+          <div class="card-footer">
+            <div class="char-count"><i class="fas fa-text-height"></i> <span id="charCount">0</span> characters</div>
+            <div class="action-buttons">
+              <button class="action-icon" id="copySourceBtn"><i class="far fa-copy"></i> <span>Copy</span></button>
+              <button class="action-icon" id="micSourceBtn"><i class="fas fa-microphone"></i> <span>Speak</span></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="translation-card">
+          <div class="card-header">
+            <div class="lang-controls">
+              <button class="lang-selector" id="targetLangBtn"><span id="targetLangLabel">English</span> <i class="fas fa-chevron-down"></i></button>
+            </div>
+            <div class="action-buttons">
+              <button class="icon-btn" id="speakOutputBtn"><i class="fas fa-volume-up"></i></button>
+              <button class="icon-btn favorite-btn" id="favStarBtn"><i class="far fa-star"></i></button>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="output-text" id="translatedOutput"><span class="placeholder"> Translation will appear here</span></div>
+          </div>
+          <div class="card-footer">
+            <div class="translation-status"><i class="fas fa-language"></i> <span>Ready</span></div>
+            <div class="action-buttons">
+              <button class="action-icon" id="copyOutputBtn"><i class="far fa-copy"></i> <span>Copy</span></button>
+              <button class="action-icon" id="clearOutputBtn"><i class="fas fa-undo-alt"></i> <span>Clear</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="quick-actions">
+        <div class="action-group">
+          <button class="quick-btn" id="writeBtn"><i class="fas fa-keyboard"></i> <span>Write Mode</span></button>
+          <button class="quick-btn primary" id="recordBtn"><i class="fas fa-microphone-alt"></i> <span>Voice Recording</span></button>
+          <button class="quick-btn" id="infoBtn"><i class="fas fa-info-circle"></i> <span>About</span></button>
+        </div>
+        <div class="feature-badges">
+          <span class="badge"><i class="fas fa-bolt"></i> Real-time</span>
+          <span class="badge"><i class="fas fa-shield-alt"></i> Secure</span>
+          <span class="badge"><i class="fas fa-cloud"></i> Cloud AI</span>
+        </div>
+      </div>
+
+      <div class="history-favorites-section">
+        <div class="section-tabs">
+          <button class="tab-btn active" data-tab="history"><i class="fas fa-history"></i> Recent Translations</button>
+          <button class="tab-btn" data-tab="favorites"><i class="fas fa-heart"></i> My Favorites</button>
+        </div>
+        <div class="tab-content active" id="historyTab"><div id="historyList" class="items-list"><div class="empty-state"><i class="fas fa-language"></i><p>No translations yet</p><small>Start translating to see history here</small></div></div><button class="clear-all-btn" id="clearHistoryBtn"><i class="fas fa-trash-alt"></i> Clear All History</button></div>
+        <div class="tab-content" id="favoritesTab"><div id="favoritesList" class="items-list"><div class="empty-state"><i class="far fa-heart"></i><p>No favorites yet</p><small>Click the ⭐ star to save translations you love</small></div></div><button class="clear-all-btn" id="clearFavoritesBtn"><i class="fas fa-trash-alt"></i> Clear All Favorites</button></div>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-content">
+        <div class="creator-info">
+          <div class="creator-avatar"><i class="fas fa-code"></i></div>
+          <div class="creator-details">
+            <h4>Created by <span class="creator-name">Rafay Almani</span></h4>
+            <p>Founder & Lead Developer | AI Enthusiast</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#" id="aboutLink"><i class="fas fa-info-circle"></i> About</a>
+          <a href="#" id="privacyLink"><i class="fas fa-shield-alt"></i> Privacy</a>
+          <a href="#" id="termsLink"><i class="fas fa-file-contract"></i> Terms</a>
+          <a href="https://github.com/Rafayalmani/LinguaFlow-AI/raw/refs/heads/main/Lingua%20Ai.apk" id="downloadApkFooterBtn" class="download-apk-btn" style="background: rgba(61, 220, 132, 0.2); color: #3ddc84; padding: 6px 12px;"><i class="fab fa-android"></i> Download App</a>
+        </div>
+        <div class="copyright"><p>© 2026 LinguaFlow Pro. All rights reserved. | Built with <i class="fas fa-heart" style="color: #eab308;"></i> by Rafay Almani</p></div>
+      </div>
+    </footer>
+  </div>
+  <div id="toast" class="toast"></div>
+
+ 
+  <script src="script.js"></script>
 </body>
 </html>
