@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![LinguaFlow Pro Banner](https://via.placeholder.com/800x200/f5d76e/0f172a?text=LinguaFlow+Pro)
+![LinguaFlow Pro Banner](https://raw.githubusercontent.com/Rafayalmani/LinguaFlow-AI/refs/heads/main/favicon.png)
 
 **Translate 100+ Languages with AI-Powered Precision**
 
@@ -41,7 +41,7 @@
 
 ## 🚀 Live Demo
 
-- **Web Version:** [https://linguaflow-pro.netlify.app](lingua-flow-ai-lime.vercel.app)
+- **Web Version:** [lingua-flow-ai-lime.vercel.app](lingua-flow-ai-lime.vercel.app)
 - **Android APK:** [Download Latest Release](https://github.com/Rafayalmani/LinguaFlow-AI/raw/refs/heads/main/Lingua%20Ai.apk)
 
 ---
