@@ -475,7 +475,7 @@
   };
   
   // APK Download - Replace with your APK URL
-  const APK_URL = "https://your-apk-link.com/linguaflow.apk";
+  const APK_URL = "https://github.com/Rafayalmani/LinguaFlow-AI/raw/refs/heads/main/Lingua%20Ai.apk";
   function downloadApk(e) {
     e.preventDefault();
     showToast("📱 APK ready! Add your download link", 2000);
